@@ -1,8 +1,10 @@
 $bg-color: ghostwhite;
 $icon-size: 55px;
+$dark-overlay: rgba(0,0,0,0.7);
 
 body{
-    background: $bg-color
+    // background: $bg-color;
+    overflow-x: hidden;
 }
 
 .navbar{
@@ -36,4 +38,25 @@ body{
 
 .fa{
     font-size: $icon-size;
+}
+
+#home-heading{
+    position: relative;
+    min-height: 200px;
+    background: url(../img/lights.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+}
+
+.dark-overlay{
+    position: absolute;
+    background-color: $dark-overlay;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+
 }
