@@ -16,13 +16,11 @@ $(document).on('click', '[data-toggle="lightbox"]', function(event){
   $(this).ekkoLightbox();
 });
 
-$('.slider').slick({
-  infinite: true,
-  slideToShow:1,
-  slideToScroll:1
+$(document).ready(function(){
+  $('.slider').slick({
+    infinite: true,
+    slideToShow: 1,
+    slideToScroll: 1
+  });
 });
 
-$(document).on('click', '[data-toggle="lightbox"]', function(event){
-  event.preventDefault();
-  $(this).ekkoLightbox();
-});
