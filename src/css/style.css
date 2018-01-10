@@ -1,6 +1,9 @@
 body {
   overflow-x: hidden; }
 
+.bg-nav {
+  background: #1e3148; }
+
 .navbar .nav-link {
   font-size: 14px;
   text-transform: uppercase;
@@ -11,15 +14,15 @@ body {
   height: 450px; }
 
 .carousel-image-1 {
-  background: url("../img/image1.jpg");
+  background: url("../img/carousel1.jpg");
   background-size: cover; }
 
 .carousel-image-2 {
-  background: url("../img/image2.jpg");
+  background: url("../img/carousel2.jpeg");
   background-size: cover; }
 
 .carousel-image-3 {
-  background: url("../img/image3.jpg");
+  background: url("../img/carousel3.jpeg");
   background-size: cover; }
 
 .fa {
